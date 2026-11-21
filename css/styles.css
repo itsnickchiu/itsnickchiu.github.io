@@ -224,9 +224,14 @@ h1.name {
 	margin-bottom: 6px;
 }
 
-.publication img {
+.publication img,
+.publication video {
 	width: 100%;
 	height: auto;
+}
+
+.publication video {
+	display: block;
 }
 
 .publication a {
@@ -352,6 +357,7 @@ li .logo {
   	margin-right: auto;
 	width: 75%;
 	max-width: 80px;
+	height: auto;
 }
 
 li .point {
